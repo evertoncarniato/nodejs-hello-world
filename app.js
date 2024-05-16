@@ -3,7 +3,7 @@ const app = express();
 const port = 3000;
 
 app.get('/', (req, res) => {
-  res.send('Hello World v5 (Uhuul deploy com Ansible!)');
+  res.send('Hello World v6 (Uhuul deploy com Ansible!)');
 });
 
 app.listen(port, () => {
